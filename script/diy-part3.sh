@@ -76,10 +76,10 @@ svn co https://github.com/kiddin9/openwrt-packages/trunk/iptvhelper
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-iptvhelper
 
 # Add ServerChan
-#git clone --depth=1 https://github.com/tty228/luci-app-serverchan
+git clone --depth=1 https://github.com/tty228/luci-app-serverchan
 
 # Add OpenClash
-#git clone --depth=1 -b master https://github.com/vernesong/OpenClash
+git clone --depth=1 -b master https://github.com/vernesong/OpenClash
 
 # Add luci-app-onliner (need luci-app-nlbwmon)
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-onliner
@@ -171,11 +171,18 @@ git clone --depth=1 https://github.com/sirpdboy/luci-app-netdata
 #popd
 
 # Add po2lmo
-#git clone https://github.com/openwrt-dev/po2lmo.git
-#pushd po2lmo
-#make && sudo make install
-#popd
+git clone https://github.com/openwrt-dev/po2lmo.git
+pushd po2lmo
+make && sudo make install
+popd
 
 #添加smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+
+
+# ADD Drcom
+git clone https://github.com/GJXS1980/ODP.git package/ODP
+
+#ADD XMURP-UA
+git clone https://github.com/CHN-beta/xmurp-ua.git package/xmurp-ua
