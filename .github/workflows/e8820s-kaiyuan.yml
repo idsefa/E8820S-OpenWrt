@@ -39,13 +39,13 @@ on:
 
 
 env:
-  REPO_URL: https://github.com/nanchuci/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/openwrt/openwrt
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/e8820s-kaiyuan.config
   DIY_P1_SH: script/diy-part1.sh
   DIY_P2_SH: script/diy-part2.sh
-  UPLOAD_BIN_DIR: false
+  UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
