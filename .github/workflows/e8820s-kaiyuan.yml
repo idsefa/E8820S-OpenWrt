@@ -39,8 +39,8 @@ on:
 
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/nanchuci/lede
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/e8820s-kaiyuan.config
   DIY_P1_SH: script/diy-part1.sh
